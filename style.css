@@ -1,0 +1,67 @@
+/* TODO: design your profile with CSS */
+h1, h2, h3, h4, h5, h6 {
+  color: #0d3655;
+  font-family: roboto-regular, sans-serif;
+}
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+i {
+  color: #1968a3;
+  font-size: 50px;
+}
+
+.btn-blue {
+  color: white;
+  background-color: #1968a3;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.btn-blue:hover {
+  background-color: #0d3655;
+}
+
+.img-circle {
+  width: 90px;
+  border-radius: 50%;
+}
+
+.shadowed {
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+.card-white {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.list-inline {
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+  list-style-type: none;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
